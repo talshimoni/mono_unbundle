@@ -1,8 +1,9 @@
-from setuptools import setup, find_packages
+from io import open
+from os import path
+
 from pipenv.project import Project
 from pipenv.utils.dependencies import convert_deps_to_pip
-from os import path
-from io import open
+from setuptools import find_packages, setup
 
 here = path.abspath(path.dirname(__file__))
 pfile = Project(__file__).parsed_pipfile
