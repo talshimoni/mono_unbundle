@@ -3,7 +3,8 @@ from os import path
 
 from pipenv.project import Project
 from pipenv.utils.dependencies import convert_deps_to_pip
-from setuptools import find_packages, setup
+from setuptools import find_packages
+from setuptools import setup
 
 here = path.abspath(path.dirname(__file__))
 pfile = Project(__file__).parsed_pipfile
