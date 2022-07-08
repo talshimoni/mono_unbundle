@@ -30,7 +30,8 @@ setup(
         "Topic :: Software Development :: Disassemblers",
         "Topic :: System :: Archiving :: Packaging",
         "Operating System :: Android",
-        "Programming Language :: C#" "Programming Language :: Python :: 3",
+        "Programming Language :: C#"
+        "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
