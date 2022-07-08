@@ -13,7 +13,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name = 'mono_unbundle',
+    name='mono_unbundle',
     version='2019.03.10.dev0',
     description='Extract DLLs from Xamarin app bundles',
     long_description=long_description,
@@ -30,8 +30,8 @@ setup(
         'Topic :: System :: Archiving :: Packaging',
         'Operating System :: Android',
         'Programming Language :: C#'
-        
-        
+
+
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
